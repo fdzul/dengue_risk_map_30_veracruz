@@ -132,3 +132,119 @@ hotspots_map(cve_ent = "30",
 ```
 
 
+### [**Poza Rica**]{style="color:#990000"}
+
+```{r, hotspots_dengue_poza_rica, echo=FALSE}
+hotspots_map(cve_ent = "30",
+             locality = "Poza Rica de Hidalgo",
+             hotspots = cases_hotspots_agebs19,
+             static_map = FALSE)
+
+```
+
+### [**Papantla**]{style="color:#990000"}
+
+```{r, hotspots_dengue_papantla, echo=FALSE}
+hotspots_map(cve_ent = "30",
+             locality = "Papantal de Olearte",
+             hotspots = cases_hotspots_agebs19,
+             static_map = FALSE)
+
+```
+
+### [**Martínez de la Torre**]{style="color:#990000"}
+
+```{r, hotspots_dengue_martinez, echo=FALSE}
+hotspots_map(cve_ent = "30",
+             locality = "Martínez de la Torre",
+             hotspots = cases_hotspots_agebs19,
+             static_map = FALSE)
+
+```
+
+
+### [**Xalapa**]{style="color:#990000"}
+
+```{r, hotspots_dengue_xalapa, echo=FALSE}
+hotspots_map(cve_ent = "30",
+             locality = "Xalapa-Enriquez",
+             hotspots = cases_hotspots_agebs19,
+             static_map = FALSE)
+
+```
+
+
+### [**Córdoba**]{style="color:#990000"}
+
+```{r, hotspots_dengue_cordoba, echo=FALSE}
+hotspots_map(cve_ent = "30",
+             locality = "Cordoba",
+             hotspots = cases_hotspots_agebs19,
+             static_map = FALSE)
+
+```
+
+### [**Orizaba**]{style="color:#990000"}
+
+```{r, hotspots_dengue_orizaba, echo=FALSE}
+hotspots_map(cve_ent = "30",
+             locality = "Orizaba",
+             hotspots = cases_hotspots_agebs19,
+             static_map = FALSE)
+
+```
+
+
+### [**Veracruz**]{style="color:#990000"}
+
+```{r, hotspots_dengue_veracruz, echo=FALSE}
+hotspots_map(cve_ent = "30",
+             locality = c("Veracruz","Boca del Río"),
+             hotspots = cases_hotspots_agebs19,
+             static_map = FALSE)
+
+```
+
+### [**Cosamaloapan**]{style="color:#990000"}
+
+```{r, hotspots_dengue_cosamaloapan, echo=FALSE}
+hotspots_map(cve_ent = "30",
+             locality = "Cosamaloapan",
+             hotspots = cases_hotspots_agebs19,
+             static_map = FALSE)
+
+```
+
+### [**San Andres Tuxtla**]{style="color:#990000"}
+
+```{r, hotspots_dengue_san_andres, echo=FALSE}
+hotspots_map(cve_ent = "30",
+             locality = "San Andres Tuxtla",
+             hotspots = cases_hotspots_agebs19,
+             static_map = FALSE)
+
+```
+
+
+### [**Coatzacoalcos**]{style="color:#990000"}
+
+```{r, hotspots_dengue_coatza, echo=FALSE}
+hotspots_map(cve_ent = "30",
+             locality = "Coatzacoalcos",
+             hotspots = cases_hotspots_agebs19,
+             static_map = FALSE)
+
+```
+
+
+### [**Minatitlan**]{style="color:#990000"}
+
+```{r, hotspots_dengue_minatitlan, echo=FALSE}
+hotspots_map(cve_ent = "30",
+             locality = "Minatitlan",
+             hotspots = cases_hotspots_agebs19,
+             static_map = FALSE)
+
+```
+
+
