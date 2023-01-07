@@ -1,5 +1,5 @@
 ---
-title: "Programa de Prevención y Control del Dengue de Quintana Roo"
+title: "Programa de Prevención y Control del Dengue de Veracruz"
 output: 
   flexdashboard::flex_dashboard:
       theme: united
@@ -247,4 +247,122 @@ hotspots_map(cve_ent = "30",
 
 ```
 
+# **Hotspots del vector de Dengue**
+
+## Column {.tabset}
+
+### [**Tuxpan**]{style="color:#990000"}
+
+```{r vector_hotspots_tuxpan, dpi = 300, warning=FALSE, message=FALSE}
+eggs_hotspots_intensity_map_year(betas = betas_30_veracruz,
+                                 locality = "Tuxpan de Rodríguez Cano",
+                                 cve_ent = "30",
+                                 palette = rcartocolor::carto_pal,
+                                 name = "SunsetDark")
+```
+### [**Poza Rica**]{style="color:#990000"}
+
+```{r vector_hotspots_poza_rica, dpi = 300, warning=FALSE, message=FALSE}
+eggs_hotspots_intensity_map_year(betas = betas_30_veracruz,
+                                 locality = "Poza Rica de Hidalgo",
+                                 cve_ent = "30",
+                                 palette = rcartocolor::carto_pal,
+                                 name = "SunsetDark")
+```
+
+### [**Papantla**]{style="color:#990000"}
+
+```{r vector_hotspots_papantla, dpi = 300, warning=FALSE, message=FALSE}
+eggs_hotspots_intensity_map_year(betas = betas_30_veracruz,
+                                 locality = "Papantla de Olearte",
+                                 cve_ent = "30",
+                                 palette = rcartocolor::carto_pal,
+                                 name = "SunsetDark")
+```
+
+
+
+### [**Xalapa**]{style="color:#990000"}
+
+```{r vector_hotspots_xalapa, dpi = 300, warning=FALSE, message=FALSE}
+eggs_hotspots_intensity_map_year(betas = betas_30_veracruz,
+                                 locality = "Xalapa-Enriquez",
+                                 cve_ent = "30",
+                                 palette = rcartocolor::carto_pal,
+                                 name = "SunsetDark")
+```
+
+### [**Córdoba**]{style="color:#990000"}
+
+```{r vector_hotspots_cordoba, dpi = 300, warning=FALSE, message=FALSE}
+eggs_hotspots_intensity_map_year(betas = betas_30_veracruz,
+                                 locality = "Cordoba",
+                                 cve_ent = "30",
+                                 palette = rcartocolor::carto_pal,
+                                 name = "SunsetDark")
+```
+
+### [**Orizaba**]{style="color:#990000"}
+
+```{r vector_hotspots_orizaba, dpi = 300, warning=FALSE, message=FALSE}
+eggs_hotspots_intensity_map_year(betas = betas_30_veracruz,
+                                 locality = "Orizaba",
+                                 cve_ent = "30",
+                                 palette = rcartocolor::carto_pal,
+                                 name = "SunsetDark")
+```
+
+
+### [**Veracruz**]{style="color:#990000"}
+
+```{r vector_hotspots_veracruz, dpi = 300, warning=FALSE, message=FALSE}
+eggs_hotspots_intensity_map_year(betas = betas_30_veracruz,
+                                 locality = "Veracruz",
+                                 cve_ent = "30",
+                                 palette = rcartocolor::carto_pal,
+                                 name = "SunsetDark")
+```
+
+
+### [**Cosamaloapan**]{style="color:#990000"}
+
+```{r vector_hotspots_cosamaloapan, dpi = 300, warning=FALSE, message=FALSE}
+eggs_hotspots_intensity_map_year(betas = betas_30_veracruz,
+                                 locality = "Tuxpan de Rodríguez Cano",
+                                 cve_ent = "30",
+                                 palette = rcartocolor::carto_pal,
+                                 name = "SunsetDark")
+```
+
+
+### [**San Andres Tuxtla**]{style="color:#990000"}
+
+```{r vector_hotspots_san_andres, dpi = 300, warning=FALSE, message=FALSE}
+eggs_hotspots_intensity_map_year(betas = betas_30_veracruz,
+                                 locality = "San Andres Tuxtla",
+                                 cve_ent = "30",
+                                 palette = rcartocolor::carto_pal,
+                                 name = "SunsetDark")
+```
+
+### [**Coatzacoalcos**]{style="color:#990000"}
+
+```{r vector_hotspots_coatza, dpi = 300, warning=FALSE, message=FALSE}
+eggs_hotspots_intensity_map_year(betas = betas_30_veracruz,
+                                 locality = "Coatzacoalcos",
+                                 cve_ent = "30",
+                                 palette = rcartocolor::carto_pal,
+                                 name = "SunsetDark")
+```
+
+
+### [**Minatitlan**]{style="color:#990000"}
+
+```{r vector_hotspots_cancun, dpi = 300, warning=FALSE, message=FALSE}
+eggs_hotspots_intensity_map_year(betas = betas_30_veracruz,
+                                 locality = "Minatitlan",
+                                 cve_ent = "30",
+                                 palette = rcartocolor::carto_pal,
+                                 name = "SunsetDark")
+```
 
