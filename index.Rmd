@@ -328,7 +328,7 @@ eggs_hotspots_intensity_map_year(betas = betas_30_veracruz,
 
 ```{r vector_hotspots_cosamaloapan, dpi = 300, warning=FALSE, message=FALSE}
 eggs_hotspots_intensity_map_year(betas = betas_30_veracruz,
-                                 locality = "Tuxpan de Rodríguez Cano",
+                                 locality = "Cosamaloapan",
                                  cve_ent = "30",
                                  palette = rcartocolor::carto_pal,
                                  name = "SunsetDark")
